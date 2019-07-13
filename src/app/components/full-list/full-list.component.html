@@ -37,7 +37,8 @@
       <!--Done Button Column-->
       <ng-container matColumnDef="complete">
         <th mat-header-cell *matHeaderCellDef> </th>
-        <td mat-cell *matCellDef="let element"> <button mat-raised-button color="primary" (click)="deleteTodo([element.id])">Edit</button> <button mat-raised-button color="warn" (click)="deleteTodo([element.id])">Done</button> </td>
+        <td mat-cell *matCellDef="let element"> <button mat-raised-button color="primary" (click)="deleteTodo([element.id])">Edit</button> 
+          <button mat-raised-button color="warn" (click)="deleteTodo([element.id])">Done</button> </td>
       </ng-container>
       
   

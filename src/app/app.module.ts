@@ -9,12 +9,15 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatCheckboxModule } from '@angular/material';
 import { FullListComponent } from './components/full-list/full-list.component';
 import { MatTableModule} from '@angular/material/table';
+import { LoginComponent } from './components/login/login.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FullListComponent
+    FullListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
